@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ai-math-assistant-langchain"
 version = "1.0.0"
-description = "An AI math assistant built with LangChain tool calling (create_agent + @tool)."
+description = "AI math assistant agent built with LangChain 1.x tool calling (@tool + create_agent) — 5 math tools, multi-step tool chaining, OpenAI / IBM watsonx / offline modes, CLI with trace view. 59 offline tests + live LLM evals."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "VictorV" }]
-keywords = ["langchain", "langgraph", "ai-agents", "tool-calling", "llm", "openai", "watsonx"]
+keywords = ["langchain", "langgraph", "ai-agents", "tool-calling", "function-calling", "agentic-ai", "llm", "openai", "watsonx", "ibm-granite", "python", "pytest", "llm-evaluation", "jupyter-notebook", "cli", "coursera", "portfolio-project"]
 dependencies = [
     "langchain>=1.0",
     "langchain-core>=1.0",
